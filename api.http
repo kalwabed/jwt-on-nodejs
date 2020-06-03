@@ -1,8 +1,18 @@
+# Register
 POST http://localhost:5000/api/user/register HTTP/1.1
 Content-Type: application/json
 
 {
     "username":"kalwabed",
     "email":"kaliwa@go.id",
-    "password":"123456"
+    "password":"kalwabed"
+}
+
+# Login
+POST http://localhost:5000/api/user/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"kaliwa@go.id",
+    "password":"kalwabed"
 }
