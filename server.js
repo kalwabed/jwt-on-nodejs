@@ -1,12 +1,15 @@
 const express = require('express')
 const app = express()
-const authRoute = require('./routes/auth')
 const mongoose = require('mongoose')
+
+// Routes
+const authRoute = require('./routes/auth')
+const homeRoute = require('./routes/home')
+
 const PORT = process.env.PORT || 5000
-require('dotenv/config')
+require('dotenv').config()
 
 // Middlewares
-
 app.use(express.json({}))
 app.use(express.urlencoded({ extended: false }))
 
@@ -19,5 +22,6 @@ mongoose.connect(
 
 // Router
 app.use('/api/user', authRoute)
+app.use('/', homeRoute)
 
 app.listen(PORT, () => console.log(`Server running up on ${PORT}`))
