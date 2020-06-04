@@ -38,7 +38,7 @@ router.post('/register', async (req, res) => {
 
 // @desc    login menggunakan email dan password untuk mendapatkan token
 // @meta    userExist ? login : error
-// @route   http://localhost:5000/api/user/register
+// @route   http://localhost:5000/api/user/login
 
 // Login
 router.post('/login', async (req, res) => {
