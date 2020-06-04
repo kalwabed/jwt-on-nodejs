@@ -6,6 +6,7 @@ const { registerValidation, loginValidation } = require('../utils/validation')
 
 // @desc    mendaftarkan pengguna baru dengan username, email, password
 // @meta    userOnDb ? error : addNewUser
+// @route   http://localhost:5000/api/user/register
 
 // Register
 router.post('/register', async (req, res) => {
@@ -37,6 +38,7 @@ router.post('/register', async (req, res) => {
 
 // @desc    login menggunakan email dan password untuk mendapatkan token
 // @meta    userExist ? login : error
+// @route   http://localhost:5000/api/user/register
 
 // Login
 router.post('/login', async (req, res) => {
