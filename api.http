@@ -19,4 +19,4 @@ Content-Type: application/json
 
 # Home
 GET http://localhost:5000
-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWQ3YmRmMWM5ZGU4ZjQyNTcxODIzNDMiLCJpYXQiOjE1OTEyMjgyNzR9.Lcnitf92onRBctFvAXdFhjbVZ1B4CsNOQLH6p3fm2nw
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWQ3YmRmMWM5ZGU4ZjQyNTcxODIzNDMiLCJpYXQiOjE1OTEyMjg4MjJ9.NGEWDwxUca1au3OGez0yKDYZgy-c6ohEp15pmTsU9IA

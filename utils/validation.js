@@ -1,5 +1,8 @@
 const Joi = require('@hapi/joi')
 
+// @desc    memverifikasi data yang masuk dan memberikan error sesuai kesalahan.
+// @meta    data = req.body
+
 // Validation
 const registerValidation = data => {
     const schema = Joi.object({
